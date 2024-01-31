@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root', //sesuaikan dengna username mysql masing-masing 
     password: '', //sesuaikan dengan password mysql masing-masing
-    database: 'mahasiswa',
+    database: 'dosen',
 });
 
 connection.connect((err) => {
